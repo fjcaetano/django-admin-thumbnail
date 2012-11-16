@@ -2,7 +2,7 @@ django_admin_thumbnail
 ======================
 This is a package developed to help you with ImageField visualization in your ModelAdmin. It automatically creates user friendly thumbnail for any ImageField you choose to put in your list_display.
 
-All you have to do is to switch from *ModelAdmin* to *ThumbAdmin* subclass. It's super easy to use:
+All you have to do is to switch from *ModelAdmin* to *ThumbAdmin* subclass. It's super easy to use: 
 
 The Looks
 ---------
@@ -46,9 +46,19 @@ Requirements
 
 Installation
 ------------
+Please, first read the [sorl.thumbnail installation](http://sorl-thumbnail.readthedocs.org/en/latest/) to install it's requirements.
+
 Install using pip::
 
     pip install django-admin-thumbnail
+    
+Or you can clone the project and install it via::
+
+    python setup.py install
+    
+Localization
+------------
+django-admin-thumbnail is localizable, but currently, the only officially supported languages are pt_BR and en_US. But feel free to localize it the way you want and then, send me the .po file for it to be official.
 
 Check This Out
 --------------
