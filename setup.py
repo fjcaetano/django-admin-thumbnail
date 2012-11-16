@@ -13,7 +13,7 @@ setup(
     url='https://github.com/fjcaetano/django_admin_thumbnail',
     license='GPL - see LICENSE.txt',
     description='Thumbnails for ImageFields in django admin.',
-    long_description=open('README.md').read(),
+    long_description=open('PYREADME.md').read(),
     install_requires=[
         "Django >= 1.4",
         "sorl-thumbnail >= 11.12",

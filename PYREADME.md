@@ -4,11 +4,13 @@ This is a package developed to help you with ImageField visualization in your Mo
 
 All you have to do is to switch from *ModelAdmin* to *ThumbAdmin* subclass. It's super easy to use:
 
+.. contents::
+
 The Looks
 ---------
 This is how it looks when you hover your cursor over an ImageField column:
 
-![The Looks](https://raw.github.com/fjcaetano/django-admin-thumbnail/master/thumb_image.png)
+.. image::https://raw.github.com/fjcaetano/django-admin-thumbnail/master/thumb_image.png
 
 Usage
 -----
@@ -40,9 +42,9 @@ Yes! It's THAT simple!
 
 Requirements
 ------------
-* [Django 1.4+](http://pypi.python.org/pypi/Django/1.4)
-* [sorl.thumbnail 11.12+](http://pypi.python.org/pypi/sorl-thumbnail/11.12)
-* [PIL 1.1.6+](http://pypi.python.org/pypi/PIL/1.1.6)
+* `Django 1.4+ <http://pypi.python.org/pypi/Django/1.4>`_
+* `sorl.thumbnail 11.12+ <http://pypi.python.org/pypi/sorl-thumbnail/11.12>`_
+* `PIL 1.1.6+ <http://pypi.python.org/pypi/PIL/1.1.6>`_
 
 Installation
 ------------
@@ -52,11 +54,11 @@ Install using pip::
 
 Check This Out
 --------------
-1. [GitHub Repository](https://github.com/fjcaetano/django_admin_thumbnail)
-2. [Owner's website](http://flaviocaetano.com)
-3. [PyPi package](http://pypi.python.org/pypi/django_admin_thumbnail/0.1)
+1. `GitHub Repository <https://github.com/fjcaetano/django_admin_thumbnail>`_
+2. `Owner website <http://flaviocaetano.com>`_
+3. `PyPi package <http://pypi.python.org/pypi/django_admin_thumbnail/0.1>`_
 
 
 Contact
 ==============
-If you have any comments, ideas questions, feedback, etcetera, email me and we'll be in touch. I'm [flavio@vieiracaetano.com](mailto:flavio@vieiracaetano.com)
+If you have any comments, ideas questions, feedback, etcetera, email me and we'll be in touch. I'm `flavio@vieiracaetano.com <mailto:flavio@vieiracaetano.com>`_

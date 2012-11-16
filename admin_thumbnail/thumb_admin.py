@@ -7,6 +7,9 @@ from django.db import models
 
 from django.shortcuts import render
 
+from django.conf import settings
+settings.INSTALLED_APPS = tuple(settings.INSTALLED_APPS + ('sorl.thumbnail',))
+
 class ThumbAdmin(ModelAdmin):
 
     def __init__(self, model, admin_site):

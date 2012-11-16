@@ -1,3 +1,2 @@
 include *.txt
-include *.md
 recursive-include admin_thumbnail *.py *.html *.css
