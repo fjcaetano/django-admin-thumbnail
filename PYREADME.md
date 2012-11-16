@@ -26,10 +26,10 @@ Insert **admin_thumbnail** to the end of your INSTALLED_APPS in settings.py::
 Now, your ModelAdmin must look like this::
 
     from models import ModelExample
-    from admin_thumbnail.thumb_admin import ThumbAdmin
+    from admin_thumbnail import thumb_admin
     from django.contrib import admin
 
-    class ModelExampleAdmin(ThumbAdmin):
+    class ModelExampleAdmin(thumb_admin.ThumbAdmin):
         list_display = ('an_image_field',)
 
     admin.register(ModelExample, ModelExampleAdmin)
