@@ -1,0 +1,31 @@
+# django-admin-thumbnail translation strings.
+# Copyright (C) 2013 - Flávio Caetano
+# This file is distributed under the MIT License
+# Flávio Caetano <flavio@vieiracaetano.com>, 2013.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-11 19:06-0200\n"
+"PO-Revision-Date: 2013-11-11 19:06-0200\n"
+"Last-Translator: Flávio Caetano <flavio@vieiracaetano.com>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: templates/thumb.html:10
+msgid "Open Image"
+msgstr "Ampliar Imagen"
+
+#: templates/thumb.html:13
+msgid "Image"
+msgstr "Imagen"
+
+#: templates/thumb.html:15
+msgid "(None)"
+msgstr "(Nada)"

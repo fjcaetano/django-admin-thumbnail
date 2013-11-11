@@ -42,6 +42,15 @@ admin.register(ModelExample, ModelExampleAdmin)
 After that you must create your DB table that manages the cached thumbnails:
 
     python manage.py syncdb
+    
+If you're using `south` you'll need to initialise **sorl.thumbnail's** migrations:
+
+```
+python manage.py schemamigration sorl.thumbnail --initial
+python manage.py migrate sorl.thumbnail --database=$DATABASE_NAME
+```
+
+If your `$DATABASE_NAME` is not _default_, and you're using a (DB router)[https://docs.djangoproject.com/en/dev/topics/db/multi-db/#using-routers], you should add a key named `thumbnail` to your database mapping dictionary!
 
 Yes! It's THAT simple!
 
@@ -65,7 +74,7 @@ Or you can clone the project and install it via:
     
 # Localization
 
-django-admin-thumbnail is localizable, but currently, the only officially supported languages are pt_BR and en_US. But feel free to localize it the way you want and then, send me the .po file for it to be official.
+django-admin-thumbnail is localizable, but currently, the only officially supported languages are pt_BR, en_US and es. But feel free to localize it the way you want and then, send me the .po file for it to be official.
 
 
 # Contact

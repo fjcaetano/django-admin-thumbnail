@@ -1,10 +1,6 @@
 {% load i18n %}
 {% load thumbnail %}
-
-{% block extra_head_content  %}
-<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}thumb.css" />
-{% endblock %}
-
+{% load static %}
 
 <div class="thumbnail">
 {% thumbnail image "190x190" as thumb %}

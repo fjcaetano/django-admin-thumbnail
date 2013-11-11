@@ -22,7 +22,7 @@
     position: absolute;
     padding: 5px;
     right: 0px;
-    visibility: hidden;
+    display: none;
     text-decoration: none;
     top: 23px;
 
@@ -41,11 +41,15 @@
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image on hover*/
-    visibility: visible;
+    display: block;
 }
 
 .thumbnail a {
     width: 100%;
     text-align: center;
     position: relative;
+}
+
+#changelist-form .results {
+    overflow: visible; !important
 }

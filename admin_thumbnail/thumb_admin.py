@@ -44,3 +44,8 @@ class ThumbAdmin(ModelAdmin):
         self.list_display = tuple(result)
 
         return super(ThumbAdmin, self).changelist_view(request, extra_context)
+
+    class Media:
+        css = {
+            'all': ('thumb.css',),
+        }
