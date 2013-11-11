@@ -1,2 +1,2 @@
-include *.txt
+include *.txt *.md
 recursive-include admin_thumbnail *.py *.html *.css *.po *.mo

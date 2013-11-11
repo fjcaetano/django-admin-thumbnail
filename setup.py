@@ -11,7 +11,7 @@ setup(
     author_email='flavio@vieiracaetano.com',
     packages=find_packages(),
     url='https://github.com/fjcaetano/django_admin_thumbnail',
-    license='GPL - see LICENSE.txt',
+    license='MIT - see LICENSE.txt',
     description='Thumbnails for ImageFields in django admin.',
     long_description=open('README.md').read(),
     install_requires=[
