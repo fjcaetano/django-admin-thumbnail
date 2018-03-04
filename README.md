@@ -1,7 +1,7 @@
 django_admin_thumbnail
 ======================
-[![PyPi version](https://pypip.in/v/django_admin_thumbnail/badge.png)](https://crate.io/packages/django_admin_thumbnail/)
-[![PyPi downloads](https://pypip.in/d/django_admin_thumbnail/badge.png)](https://crate.io/packages/django_admin_thumbnail/)
+[![PyPi version](https://img.shields.io/pypi/v/django_admin_thumbnail.svg)](https://crate.io/packages/django_admin_thumbnail/)
+[![PyPi downloads](https://img.shields.io/pypi/dm/django_admin_thumbnail.svg)](https://crate.io/packages/django_admin_thumbnail/)
 
 This is a package developed to help you with `ImageField` visualization in your `ModelAdmin`. It automatically creates user friendly thumbnail for any `ImageField` you choose to put in your `list_display`.
 
