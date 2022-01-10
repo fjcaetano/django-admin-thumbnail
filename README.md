@@ -79,4 +79,4 @@ django-admin-thumbnail is localizable, but currently, the only officially suppor
 
 # Contact
 
-If you have any comments, ideas questions, feedback, etcetera, email me and we'll be in touch. I'm <flavio@vieiracaetano.com>
+If you have any comments, ideas questions, feedback, etcetera, email me and we'll be in touch. Find me at <django-admin-thumbnail@flaviocaetano.com>
